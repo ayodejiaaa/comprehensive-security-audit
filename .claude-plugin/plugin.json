@@ -1,0 +1,19 @@
+{
+  "name": "comprehensive-security-audit",
+  "version": "1.1.0",
+  "description": "Deep, read-only, multi-agent security audit skill for Claude Code. Maps an app's business model and trust boundaries first, derives a domain-specific audit plan from that (auth, IDOR, financial flows, admin/privilege, data exposure, secrets/config, plus conditional domains like KYC, escrow, marketplace bidding, or NDPA data-protection compliance), runs parallel subagents per domain, independently verifies the highest-severity claims, and delivers one synthesized report.",
+  "author": {
+    "name": "Ayodeji Agboola",
+    "url": "https://github.com/ayodejiaaa"
+  },
+  "repository": "https://github.com/ayodejiaaa/comprehensive-security-audit",
+  "license": "MIT",
+  "keywords": [
+    "security",
+    "security-audit",
+    "pentest",
+    "vulnerability-assessment",
+    "code-review",
+    "owasp"
+  ]
+}
